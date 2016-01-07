@@ -54,6 +54,7 @@
 		196EDB661C3CC50C0025BD7C /* My-Favorite-Place */ = {
 			isa = PBXGroup;
 			children = (
+				197D09CC1C3DE628007DFE53 /* New Group */,
 				196EDB671C3CC50C0025BD7C /* AppDelegate.swift */,
 				196EDB691C3CC50C0025BD7C /* ViewController.swift */,
 				196EDB6B1C3CC50C0025BD7C /* Main.storyboard */,
@@ -62,6 +63,13 @@
 				196EDB731C3CC50C0025BD7C /* Info.plist */,
 			);
 			path = "My-Favorite-Place";
+			sourceTree = "<group>";
+		};
+		197D09CC1C3DE628007DFE53 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +259,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Shawn.My-Favorite-Place";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -262,6 +271,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Shawn.My-Favorite-Place";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -284,6 +294,7 @@
 				196EDB781C3CC50C0025BD7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
